@@ -19,7 +19,9 @@ $ pip install httpx lxml
 And you can run the script with the command below. To get the `free_music_archive_session` value, you must first access [freemusicarchive.org](https://freemusicarchive.org/), log in, and extract it directly through the cookie value.
 
 ```sh
-$ python3 scripts/download_genre_all.py --genre piano --session "<free_music_archive_session>"
+$ python3 scripts/download_genre_all.py \
+    --genre piano \
+    --session "<free_music_archive_session>"
 usage: download_genre_all.py [-h] --genre GENRE --session SESSION
 ```
 
